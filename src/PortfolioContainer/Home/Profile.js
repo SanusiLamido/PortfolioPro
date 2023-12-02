@@ -10,26 +10,21 @@ export default function Profile() {
           <div className='colz'>
             <div className='colz-icon'>
               <a href='Facebook.com'>
-              <i className='fa fa-facebook-square'></i>
+              <i className='fa fa-github'></i>
               </a>
               <a href="google.com">
-              <i className='fa fa-google-plus'></i>
+              <i className='fa fa-google'></i>
               </a>
               <a href="instagram.com">
               <i className='fa fa-instagram'></i>
               </a>
-              <a href="youtube.com">
-              <i className='fa fa-youtube'></i>
-              </a>
-              <a href="twitter.com">
-              <i className='fa fa-twitter'></i>
-              </a>
+              
             </div>
           </div>
           <div className='details-name'>
             <span className='primary-text'>
             {" "}
-            Hi, i am <span className='highlighted text'>Sanusi Lamido</span>
+            Hi, i am <span className='highlighted-text'>Sanusi Lamido</span>
             </span>
           </div>
           <div className='profile-details-role'>
@@ -40,9 +35,9 @@ export default function Profile() {
                 <Typical
                 loop={Infinity}
                 steps={[
-                  "Enthusiastic Dev 👨🏽‍🦱" ,
+                  "Web Dev👨🏽‍🦱" ,
                   1000,
-                  "Front-End Developer 🖥️" ,
+                  "Front-End 🖥️" ,
                   1000,
                   "HTML 📁" ,
                   1000,

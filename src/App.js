@@ -1,9 +1,9 @@
-import Profile from "./PortfolioContainer/Home/Profile";
 import React  from 'react';
+import Home from './PortfolioContainer/Home/Home';
 
 function App() {
   return <div className="App">
-      <Profile/>
+      <Home/>
     </div>
 }
 
